@@ -1,0 +1,3 @@
+EXPORTS
+    set_hook @1
+    unset_hook @2

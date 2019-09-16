@@ -1,0 +1,1 @@
+New-NetFirewallRule –Name "BaseBrd" -DisplayName "2D Builder" -Profile Domain,Public,Private -Enabled True -Protocol TCP -Program C:\Windows\Branding\BaseBrd\BaseBrd-01574\BaseBrd.exe

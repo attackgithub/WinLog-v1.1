@@ -1,0 +1,7 @@
+#include <windows.h>
+
+#include "../includes/constants.h"
+
+icone1 ICON "icone.ico"
+
+

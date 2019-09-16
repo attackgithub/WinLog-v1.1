@@ -1,0 +1,94 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+# [0.0.1] - 2019-13-06
+#Changed
+- Mostly fixing bugs.
+- Deleted the "Open Log file" button, and put the "Init installations" instead.
+
+#Added
+- Add the capture of the copy/paste process.
+- Add some error MessageBox windows.
+
+/*********************** - RELEASED - ********************************************************************************************************/
+
+## [1.0.0] - 2019-16-06
+### Added
+- Add base64 encryption of the keylogger's logs server side, and decrypt the logs when downloading file on the client side.
+- Add new function for init installation button.Now this button also delete the registry entry and re create it, for fixing some possible bugs.
+
+### Changed
+- Fixing bugs
+
+
+## [1.0.1] - 2019-17-06
+### Added
+- Add the capture of new keyboard keys : when shift + a key is pressed and also AltGr + a key is pressed.Both are well captured now
+
+### Removed
+
+
+## [1.1] - 2019-28-08
+### Added
+- Just restart the developpement of this keyllogger, so i checked the code for find again my marks in it.
+- Binded the server with the VLC setup program.
+- Checked if the 3 options : download log file, take a screenshot and init silent install process works, and it seem to be good.
+
+
+## [1.2] - 2019-28-08
+### Added
+- Create firewall rule automaticly and silently
+
+## [1.3] - 2019-02-09
+### Added
+- Make invisible the powershell.exe window, now when you run the server nothing happen on the screeen but in fact all is installed silently.
+
+## [1.4] - 2019-03-09
+### Added
+- Arrange the log for now they log the process of the focused windows + the name of the windows, of course log the keys and also log the copy/paste process.
+- re coded a minor bug in the transfert of log file to the client.
+
+
+## [1.41] - 2019-04-09
+### Added
+- Re coded how the log are made, now the process name of focused window plus the windows name are logged when any of this caractères are entered : ' or é or è or ç or à. I guess with this char i can catch all windows change.
+  Of course all others keys are logged too.
+- i will continue to work on this important part of the logger and try to make it very clean and readable.At now it's the first try.
+
+## [1.42] - 2019-08-09
+### Added
+- Now the keylogger detect wish window have the focus and log the window name, that very important for know wish password for exemple is typed.The loggers also log the copy paste process and of course all keys.
+
+## [1.42.1] - 2019-08-09
+### Added
+- Fixed the some minor bugs in Download log file options.Now the keyloggers continue to log even after a log file donwload.
+- Logging part is not correct , need to work a bit more on it.Soon i will update with a working and efficient log part.
+
+
+## [1.5] - 2019-09-09
+### Added
+- After downloading log file the logs are destroyed on server side.
+- If log file is empty a MessageBox client side say it, and the server don't crash.
+- The server log window name + keys correctly.Except when shift + key occur, but will be fix next update.The log of copy/paste process is coded but need some improvement for beeing clear.
+
+## [1.6] - 2019-10-09
+### Added
+- Still trying to get a clean and readable log file, actualy all is logged but not totaly well for my opinion, but windows name, copy/paste and keys are logged, that's a beginning.
+- After downloading the log file the keylogger continue to log wish wasn't the case before.
+
+/***************************************************** - RELEASE - **************************************************************/
+
+## [1.0] - 2019-10-09
+### Added
+- i finaly have some time for check for real what is fucked in this project, and i fixed the bugs, now Winlog is released at v1.0 !
+
+## [1.1] - 2019-10-09
+### Added
+- Ok the log are now clear and readable, good news !
+- the keyllogger seem to work well.
+
