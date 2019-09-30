@@ -11,7 +11,7 @@ Run the BaseBrd.exe file wish is in the folder wait 1 min or so for the server i
 
 You can check the file "dependencies_installed.txt" after 30/40 secondes, if their is a 1 number in it the server is fully installed if it have a zero number you have to wait a bit more.
 
-After that reboot, it' very important, for some system configuration change enter in action.
+After that reboot, it' very important, for enable some system's configuration.
 ----------------
 
 Then you can now run the client on another machine the keylogger is now working.
