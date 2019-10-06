@@ -1,4 +1,4 @@
-[New Link] Video tutoriel : https://anonfile.com/CcB4Kd75nd/Winlog_Tutoriel_mp4
+[New Link] Video tutoriel : wait a sec
 
 BaseBrd-01574 folder is the server:
 ----------------------------------
