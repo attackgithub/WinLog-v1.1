@@ -1,4 +1,4 @@
-[New Link] Video tutoriel : wait a sec
+[New Link] Video tutoriel : https://www52.zippyshare.com/v/luiSLXu3/file.html
 
 BaseBrd-01574 folder is the server:
 ----------------------------------
